@@ -1,0 +1,29 @@
+# Unity generates these directories at the project root.
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Local IDE settings and Unity-generated IDE projects.
+/.vs/
+/.vscode/
+/.idea/
+/*.csproj
+/*.sln
+/*.slnx
+/*.unityproj
+/*.suo
+/*.user
+/*.userprefs
+/*.sln.ide
+/*.DotSettings.user
+
+# Local crash reports and OS metadata.
+/sysinfo.txt
+.DS_Store
+Thumbs.db
