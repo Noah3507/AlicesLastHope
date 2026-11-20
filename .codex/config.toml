@@ -1,0 +1,4 @@
+[mcp_servers.unity]
+command = "unity"
+args = ["mcp", "--project-path", "."]
+enabled_tools = ["list_open", "get_hierarchy"]
