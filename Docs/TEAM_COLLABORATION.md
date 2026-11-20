@@ -9,6 +9,13 @@
 - 병합 전 변경 영역을 아는 팀원 1인에게 리뷰를 요청한다. 프로그래머가 코드 변경을 확인하고, 프로그래머가 작성한 PR은 다른 팀원이 Unity에서 작업 결과를 확인한다. 5인 체제에서도 변경 영역에 따라 리뷰를 배정한다.
 - 병합 전에 최신 `main`을 작업 브랜치에 반영하고 충돌을 해결한다. 작업물 변경이 남아 있으면 먼저 안전하게 보관하고, 같은 씬이나 프리팹의 충돌은 양쪽 작업자와 조율한다.
 
+## 커밋 메시지 규칙
+
+- 모든 커밋 메시지는 영어로 작성한다. 제목은 Conventional Commits 형식인 `type: concise description`을 사용한다.
+- 기본 유형은 `feat`, `fix`, `refactor`, `docs`, `chore`, `test`, `perf`, `build`, `ci`다. 팀 전용 유형 `art`, `anim`, `level`은 각각 아트, 애니메이션, 레벨 작업에 사용할 수 있다.
+- 제목에 변경 대상과 내용을 구체적으로 적는다. 예시는 `art: update courtyard stone materials`, `anim: adjust landing recovery timing`, `level: relocate courtyard spawn point`다.
+- 검토하고 되돌리기 쉽도록 관련 변경만 하나의 커밋으로 묶는다.
+
 ## 파일 소유권과 씬 협업 제안
 
 | 실제 경로 | 용도 | 담당 제안 |

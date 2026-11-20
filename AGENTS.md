@@ -10,6 +10,12 @@
 - `git reset --hard`, `git clean -fdx`, 작업을 덮어쓰는 `git checkout` 또는 `git restore`, 강제 push, 공유 히스토리 재작성 등 파괴적 Git 명령을 실행하지 않는다.
 - 완료 보고에 변경 파일 또는 경로, 검증과 테스트 결과, 실행하지 못한 검사와 그 이유를 포함한다.
 
+## 커밋 메시지
+
+- 모든 커밋 메시지는 영어로 작성한다. 제목은 Conventional Commits 형식인 `type: concise description`을 사용한다.
+- 기본 유형은 `feat`, `fix`, `refactor`, `docs`, `chore`, `test`, `perf`, `build`, `ci`다. 팀 전용 유형으로 `art`, `anim`, `level`도 허용한다.
+- 제목에 변경 대상과 내용을 구체적으로 적고, 관련 변경만 하나의 커밋으로 묶는다. 예시 `docs: define team commit message rules`
+
 ## 기능 개발과 기획 결정
 
 - 기능 작업 전 관련 기획 문서와 [결정 기록](Docs/DESIGN_DECISIONS.md), [미확정 질문](Docs/OPEN_QUESTIONS.md)을 확인한다.
