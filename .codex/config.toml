@@ -1,4 +1,28 @@
+# Requires Unity CLI 1.0.1 or later and the project's Unity Pipeline package.
 [mcp_servers.unity]
 command = "unity"
 args = ["mcp", "--project-path", "."]
-enabled_tools = ["list_open", "get_hierarchy"]
+enabled_tools = [
+    "scene_list_open",
+    "scene_get_hierarchy",
+    "scene_create",
+    "scene_open",
+    "scene_set_active",
+    "scene_save",
+    "gameobject_find",
+    "gameobject_create",
+    "gameobject_rename",
+    "gameobject_set_transform",
+    "component_get_fields",
+    "component_get_properties",
+    "component_add",
+    "component_set_field",
+    "prefab_create",
+    "prefab_instantiate",
+    "console_get",
+    "console_status",
+    "console_write",
+    "test_list",
+    "test_run",
+    "test_status",
+]
